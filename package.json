@@ -1,0 +1,29 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev-old": "nodemon src/index.js",
+    "dev": "env-cmd ./dev.env nodemon src/index.js",
+    "test": "jest --watchAll --detectOpenHandles"
+  },
+  "author": "Catherine Master",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.0",
+    "mongoose": "^5.3.16",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "sharp": "^0.29.3",
+    "supertest": "^6.2.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
